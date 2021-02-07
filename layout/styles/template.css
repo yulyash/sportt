@@ -1,0 +1,290 @@
+.admission_area {
+    position: relative;
+    padding: 110px 0;
+    z-index: 0
+}
+
+.popular_program_area .single__program {
+    margin-bottom: 100px
+}
+
+@media(max-width: 767px) {
+    .popular_program_area .single__program {
+        margin-bottom:50px
+    }
+}
+
+.popular_program_area .single__program .program_thumb img {
+    width: 100%
+}
+
+.popular_program_area .single__program .program__content {
+    background: #f8fafe;
+    padding: 55px 40px 60px;
+    position: relative
+}
+
+.popular_program_area .single__program .program__content::before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    content: '';
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+@media(max-width: 767px) {
+    .popular_program_area .single__program .program__content {
+        margin-bottom:30px
+    }
+}
+
+.popular_program_area .single__program .program__content span {
+    display: block;
+    font-size: 16px;
+    color: #232637;
+    font-weight: 400
+}
+
+.popular_program_area .single__program .program__content h4 {
+    font-size: 25px;
+    color: #232637;
+    font-family: abril fatface,cursive;
+    font-weight: 400;
+    margin-top: 23px
+}
+
+.popular_program_area .single__program .program__content p {
+    color: #7d84ab;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 23px;
+    margin-bottom: 35px
+}
+
+.popular_program_area .nav {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: #f8fafe;
+    margin-bottom: 80px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 33px
+}
+
+@media(max-width: 767px) {
+    .popular_program_area .nav {
+        margin-bottom:40px
+    }
+}
+
+.popular_program_area .nav a {
+    font-size: 16px;
+    color: #234262;
+    font-weight: 400;
+    display: inline-block;
+    padding: 8px 22px
+}
+
+@media(max-width: 767px) {
+    .popular_program_area .nav a {
+        padding:8px 16px
+    }
+}
+
+.popular_program_area .nav a.active {
+    background: #60d3e4;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.popular_program_area.program__page .single__program {
+    margin-bottom: 30px
+}
+
+.twoo, .onee, .trheee {
+    transition: all ease-out .3s;
+}
+
+.twoo:hover, .onee:hover, .trheee:hover {
+    transform: scale(1.1);
+    transition: all ease-out .3s;
+}
+
+.admission_area::before {
+    position: absolute;
+    background-image: url(../../images/6.jpg);
+    right: 0;
+    content: '';
+    width: 60%;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center center
+}
+
+@media(max-width: 767px) {
+    .admission_area::before {
+        width:100%
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .admission_area::before {
+        width:100%
+    }
+}
+
+.admission_area::after {
+    position: absolute;
+    background: #000;
+    right: 0;
+    content: '';
+    width: 60%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(23,47,72,.871)
+}
+
+@media(max-width: 767px) {
+    .admission_area::after {
+        width:100%
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .admission_area::after {
+        width:100%
+    }
+}
+
+.admission_area .admission_inner::before {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../images/5.jpg)
+}
+
+@media(max-width: 767px) {
+    .admission_area .admission_inner::before {
+        display:none
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .admission_area .admission_inner::before {
+        display:none
+    }
+}
+
+.admission_area .admission_form h3 {
+    font-family: abril fatface,cursive;
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 40px
+}
+
+.admission_area .admission_form .single_input input,.admission_area .admission_form .single_input textarea {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    background: 0 0;
+    border: 0;
+    border-bottom: 1px solid #7b7e8d;
+    padding-bottom: 15px;
+    margin-bottom: 40px
+}
+
+.admission_area .admission_form .single_input input::placeholder,.admission_area .admission_form .single_input textarea::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300
+}
+
+.admission_area .admission_form .single_input input:focus,.admission_area .admission_form .single_input textarea:focus {
+    outline: none
+}
+
+.admission_area .admission_form .single_input textarea {
+    height: 110px
+}
+
+.boxed-btn3 {
+    background: #1fc2d9;
+    color: #fff;
+    display: inline-block;
+    padding: 17px 50px;
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.boxed-btn3:hover {
+    background: #fff;
+    color: #1fc2d9;
+    border: 1px solid #1fc2d9
+}
+
+.boxed-btn3:focus {
+    outline: none
+}
+
+.boxed-btn5 {
+    display: inline-block;
+    padding: 12px 50px;
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #1fc2d9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    color: #1fc2d9!important;
+    text-transform: uppercase;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    cursor: pointer
+}
+
+.boxed-btn5:hover {
+    background: #1fc2d9;
+    color: #fff!important;
+    border: 1px solid #1fc2d9
+}
+
+.boxed-btn5:focus {
+    outline: none
+}
+
